@@ -1,0 +1,35 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap'); */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --theme-color: #456fff;
+  --font: sans-serif
+}
+
+.font-loading {
+  visibility: hidden;
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: var(--font);
+}
+
+
+.new-theme{
+  color: var(--theme-color)
+}
+
+button.new-theme{
+  background-color: var(--theme-color);
+  color: white;
+
+}
