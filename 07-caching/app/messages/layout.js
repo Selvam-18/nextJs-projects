@@ -8,6 +8,7 @@ export default  function MessagesLayout({ children }) {
   // unstable_noStore()
   // const messages = await response.json();
   const messages = getMessages()
+
   const totalMessages = messages.length;
 
   return (
